@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        input(message: 'Message1', id: 'Id1', ok: 'Ok1', submitter: 'Submitter1', submitterParameter: 'SubmitterParameter1')
+        input(message: 'Message12', id: 'Id1', ok: 'Ok1', submitter: 'Submitter1', submitterParameter: 'SubmitterParameter1')
       }
     }
   }
